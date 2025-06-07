@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>자기소개</title>
+    <style>
+    #menubar {
+    background-color: #444;
+    position: relative;
+    z-index: 10;
+    }
+
+    #menubar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    }
+
+    #menubar ul li {
+    display: inline-block;
+    padding: 10px 15px;
+    }
+
+    #menubar ul li a {
+    color: white;
+    text-decoration: none;
+    }
+
+    #menubar ul li a:hover {
+    color: lightgreen;
+    }
+
+    .section-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    }
+
+    .profile-section img {
+    float: left;
+    margin-right: 20px;
+    border: 3px solid #ddd;
+    border-radius: 10px;
+    }
+
+    ol {
+    background-color: #f8f8f8;
+    padding: 15px;
+    list-style-position: inside;
+    clear: both;
+    }
+
+    ol li ul {
+    list-style-type: square;
+    margin-left: 20px;
+    }
+
+    table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+    }
+
+    table, th, td {
+    border: 1px solid #999;
+    padding: 10px;
+    text-align: center;
+    }
+
+    table tr:hover {
+    background-color: #eef;
+    }
+    </style>
+</head>
+<body class="main-page">
+    <nav id="menubar">
+        <ul>
+            <li><a href="#">홈</a></li>
+            <li><a href="#">일상</a></li>
+            <li><a href="#">비일상</a></li>
+            <li><a href="#">스터디</a></li>
+            <li><a href="join.html">회원가입</a></li> </ul>
+    </nav>
+
+    <div class="section-container intro-section"> <h3>Introduce Myself</h3>
+        <hr>
+
+        <div class="profile-section">
+            <img src="1.jpg" alt="프로필 이미지" width="300" height="450">
+            <h2>
+                안녕하세요! 저는 조희운입니다.<br>
+                자기소개 및 1학기 수강과목을 알려드립니다.
+            </h2>
+        </div>
+        <ol type="1">
+            <li>이름 : 조희운</li>
+            <li>나이 : 33살</li>
+            <li>취미 :
+                <ul>
+                    <li>음악 감상</li>
+                    <li>여행</li>
+                    <li>내일 뭐 먹을지 고민하기</li>
+                </ul>
+            </li>
+            <li>특기:
+                <ul>
+                    <li>계획 수립</li>
+                    <li>웃음 참기</li>
+                    <li>인사말 10개국어</li>
+                </ul>
+            </li>
+        </ol>
+
+        <h3>1학기 수강 과목</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>과목</th>
+                    <th>요일</th>
+                    <th>시간</th>
+                    <th>강의실</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>대학생활 길라잡이</td>
+                    <td>토요일</td>
+                    <td>10:00 - 10:50</td>
+                    <td>탐구관 401호</td>
+                </tr>
+                <tr>
+                    <td>사고와 표현</td>
+                    <td>토요일</td>
+                    <td>11:00 - 11:50</td>
+                    <td>탐구관 406호</td>
+                </tr>
+                                <tr>
+                    <td>데이터분석 및 예측</td>
+                    <td>토요일</td>
+                    <td>13:00 - 13:50</td>
+                    <td>미래관 B111호</td>
+                </tr>
+                                <tr>
+                    <td>인공지능기초</td>
+                    <td>토요일</td>
+                    <td>14:00 - 14:50</td>
+                    <td>미래관 B107호</td>
+                </tr>
+                                <tr>
+                    <td>웹프로그래밍</td>
+                    <td>토요일</td>
+                    <td>15:00 - 15:50</td>
+                    <td>미래관 B111호</td>
+                </tr>
+                                <tr>
+                    <td>데이터분석 및 예측</td>
+                    <td>토요일</td>
+                    <td>16:00 - 16:50</td>
+                    <td>미래관 B111호</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
